@@ -18,3 +18,23 @@ To set up the Docs Questionnaire project, follow these steps:
 1. Clone the repository to your local machine.
 2. Ensure you have Python installed.
 3. Install the required dependencies by running:
+
+4. Start the Streamlit app by running:
+
+   
+## Usage
+
+After starting the Streamlit app, navigate to the provided URL in your web browser. You will be greeted with an interface where you can upload a PDF document. Once uploaded, the document will be processed, and you can start asking questions based on its content.
+
+## Dependencies
+
+- Streamlit
+- Langchain
+- Google Gemini
+- PyMuPDF (for PDF reading)
+- FAISS (for vector storage and retrieval)
+
+## Acknowledgments
+
+- Made by Bhaskar Gupta
+- Special thanks to the open-source projects that made this possible: Streamlit, Langchain, and Google Gemini.
